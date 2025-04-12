@@ -116,8 +116,25 @@ body {
 
   #map {
     height: 400px;
-    width: 80vh;
+    width: 50vh;
     margin: 20px auto;
     border-radius: 10px;
     border: 2px solid #ccc;
   }
+
+  @media only screen and (min-width: 250px) and (max-width: 968px) {
+    #map {
+      height: 300px;
+      width: 30vh;
+      margin: 10px auto !important;
+      border: 2px solid #ccc;
+      padding: auto;
+    }
+
+    .show-img {
+        height: 30vh !important;
+        width: 30vh !important;
+    }
+
+  }
+  
